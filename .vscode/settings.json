@@ -4,9 +4,21 @@
     "idf.openOcdConfigs": [
         "board/esp32-wrover-kit-3.3v.cfg"
     ],
-    "idf.port": "/dev/ttyS0",
+    "idf.port": "/dev/ttyACM0",
     "idf.toolsPath": "/home/gtc/.espressif",
     "files.associations": {
-        "gpio.h": "c"
+        "gpio.h": "c",
+        "_nvs_.h": "c",
+        "nvs_flash.h": "c",
+        "iot_button.h": "c",
+        "pin_init.h": "c",
+        "button_gpio.h": "c",
+        "xtensa-debug-module.h": "c",
+        "main.h": "c",
+        "freertos.h": "c",
+        "button_types.h": "c",
+        "esp_err.h": "c",
+        "button_interface.h": "c",
+        "stdint.h": "c"
     }
 }
