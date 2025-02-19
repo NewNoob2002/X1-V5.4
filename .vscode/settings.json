@@ -1,0 +1,12 @@
+{
+    "C_Cpp.intelliSenseEngine": "default",
+    "idf.espIdfPath": "/home/gtc/esp/v5.4/esp-idf",
+    "idf.openOcdConfigs": [
+        "board/esp32-wrover-kit-3.3v.cfg"
+    ],
+    "idf.port": "/dev/ttyS0",
+    "idf.toolsPath": "/home/gtc/.espressif",
+    "files.associations": {
+        "gpio.h": "c"
+    }
+}
